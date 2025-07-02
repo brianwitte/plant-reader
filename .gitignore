@@ -1,0 +1,58 @@
+plants.db
+
+# Clojure/ClojureScript
+.calva/output-window/
+.calva/repl.calva-repl
+.classpath
+.clj-kondo/.cache
+.cpcache
+.eastwood
+.factorypath
+.hg/
+.hgignore
+.java-version
+.lein-*
+.lsp/.cache
+.lsp/sqlite.db
+.nrepl-history
+.nrepl-port
+.portal
+.project
+.rebel_readline_history
+.settings
+.socket-repl-port
+.sw*
+*.class
+*.jar
+*.swp
+*~
+/checkouts
+/classes
+/target
+pom.xml
+pom.xml.asc
+
+# Shadow-cljs
+.shadow-cljs/
+resources/public/js/
+!resources/public/js/.gitkeep
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
