@@ -10,6 +10,11 @@ Download from https://github.com/brianwitte/plant-reader
 
 FIXME: explanation
 
+
+In the project root, seed your database:
+
+    $ sqlite3 plants.db < test.sql
+
 Run the project directly, via `:exec-fn`:
 
     $ clojure -X:run-x
@@ -68,4 +73,3 @@ _Feel free to remove or change the `LICENSE` file and remove or update this_
 _section of the `README.md` file!_
 
 Distributed under the Eclipse Public License version 1.0.
-# plant-reader
